@@ -1,70 +1,70 @@
 * {
-    margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 body {
-    background-color: lightyellow;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Set the minimum height of the body to fill the viewport. */
+  background-color: lightyellow;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set the minimum height of the body to fill the viewport. */
 }
 
 .navbar {
-    background-color: darkgray;
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: xx-large;
+  background-color: darkgray;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: xx-large;
 }
 
 .img-card {
-    background-image: url(https://images.unsplash.com/photo-1566371486490-560ded23b5e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    height: 30vh;
+  background-image: url(https://images.unsplash.com/photo-1566371486490-560ded23b5e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 30vh;
 }
 
 .img-src {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 a:hover {
-    color: hotpink;
+  color: hotpink;
 }
 
 .one {
-    width: 500px;
-    height: 300px;
+  width: 500px;
+  height: 300px;
 }
 
 .main-content {
-    flex: 1; 
-    padding: 20px; 
+  flex: 1;
+  padding: 20px;
 }
 
 .contact {
-    background-color: black;
-    height: 30vh;
+  background-color: black;
+  height: 30vh;
 }
 
 .list {
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
 }
 
 img:hover {
-    transform: translateX(100%);
-    transition: all 1s;
+  transform: translateX(100%);
+  transition: all 1s;
 }
-a:hover{
-    transform: translateY(20px);
+a:hover {
+  transform: translateY(20px);
 }
-.nav-about{
-    background-color: grey;
-    display: flex;
-    justify-content: space-around;
+.nav-about {
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
 }
